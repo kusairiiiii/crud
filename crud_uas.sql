@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 18, 2018 at 01:07 PM
+-- Generation Time: Jul 18, 2018 at 02:41 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.0.29
 
@@ -41,8 +41,10 @@ CREATE TABLE `mahasiswas` (
 --
 
 INSERT INTO `mahasiswas` (`id`, `nama`, `nim`, `created_at`, `updated_at`) VALUES
-(6, 'Imah', '123', '2018-07-18 02:41:22', '2018-07-18 02:41:22'),
-(7, 'Si Imah', '1235466767', '2018-07-18 02:41:56', '2018-07-18 02:42:06');
+(1, 'Ahmad kusairi', '16630148', '2018-07-18 04:26:48', '2018-07-18 04:26:48'),
+(2, 'andri hindraini', '16631085', '2018-07-18 04:27:52', '2018-07-18 04:27:52'),
+(3, 'adrian cahaya putra', '16630505', '2018-07-18 04:28:24', '2018-07-18 04:28:24'),
+(4, 'masyudi putra', '16630265', '2018-07-18 04:28:43', '2018-07-18 04:28:43');
 
 -- --------------------------------------------------------
 
@@ -131,7 +133,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `mahasiswas`
 --
 ALTER TABLE `mahasiswas`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `migrations`
